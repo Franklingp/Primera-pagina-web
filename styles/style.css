@@ -19,20 +19,19 @@ body{
 }
 
 #cabecera{
-	margin-top: 15px;
+	margin-top:-20px;
 	font-family: serif, Arial;
 	
 }
 
 #titulo{
-
-	background: #235E30;
-	font-size: 42px;
-	color: white;
-	width: 35%;
-	padding: 5px;
-	padding-left: 25px;
-	margin-bottom: 15px;
+    background: #235E30;
+    font-size: 47px;
+    color: white;
+    width: 40%;
+    padding: 5px;
+    padding-left: 25px;
+    margin-bottom: 15px;
 }
 
 #menu{
@@ -77,13 +76,13 @@ body{
 	margin-bottom: 7px;
 }
 
-#articulos span{
+#articulos .date{
 	color: #aaa;
 	display: block;
 	margin-bottom: 7px;
 }
 
-#articulos a {
+#articulos .more{
     display: block;
     background: #235E30;
     color: white;
@@ -97,4 +96,9 @@ body{
 
 #articulos hr{
 	margin-bottom: 14px;
+}
+
+#adicional{
+	float: right;
+	width: 25%;
 }
