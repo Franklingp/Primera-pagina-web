@@ -64,3 +64,37 @@ body{
 	background: #235E30;
 }
 
+#articulos{
+	position: left;
+	width: 60%;
+	margin-left: 5px;
+}
+
+#articulos h2{
+	color: #333;
+	font-size: 31px;
+	margin-top:10px;
+	margin-bottom: 7px;
+}
+
+#articulos span{
+	color: #aaa;
+	display: block;
+	margin-bottom: 7px;
+}
+
+#articulos a {
+    display: block;
+    background: #235E30;
+    color: white;
+    text-decoration: none;
+    width: 99px;
+    height: 35px;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 9px;
+}
+
+#articulos hr{
+	margin-bottom: 14px;
+}
