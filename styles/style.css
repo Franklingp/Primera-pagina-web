@@ -9,14 +9,20 @@ body{
 
 }
 
+						/* seccion global de pagina web*/
+
 #global{
 	background: white;
 	width: 65%;
 	margin: 0px auto;
 	padding: 20px;
 	padding-top: 10px;
-	box-shadow: grey;
+	box-shadow: 2px 2px 7px #464545;
+	position: relative;
 }
+
+						/*cabecera de la pagina*/
+
 
 #cabecera{
 	margin-top:-20px;
@@ -33,6 +39,9 @@ body{
     padding-left: 25px;
     margin-bottom: 15px;
 }
+
+
+						/*Menu de la pagina web*/
 
 #menu{
 	font-size: 17px;
@@ -63,10 +72,14 @@ body{
 	background: #235E30;
 }
 
+						/*articulos del contenido de la pagina*/
+
+
 #articulos{
-	position: left;
 	width: 60%;
-	margin-left: 5px;
+	position: relative;
+	left: 5px;
+
 }
 
 #articulos h2{
@@ -98,7 +111,47 @@ body{
 	margin-bottom: 14px;
 }
 
+						/*seccion adicional que se encuentra a la derecha*/
+	
+
+#recuadro_izquierdo{
+    position: absolute;
+    top: 170px;
+    right: 27px;
+    width: 30%;
+    text-align: center;	
+}
+
+#recuadro_izquierdo img{
+	width: 100%;
+	margin-bottom: 4px;
+	margin-bottom: -21px;
+}
+
 #adicional{
-	float: right;
-	width: 25%;
+    background: #333;
+    color: white;
+}
+
+#adicional h2{
+	color: white;
+	background:  #235E30;
+}
+
+#adicional p{
+	margin: 10px;
+	padding-bottom: 7px;
+}
+
+
+			/* Boton para cambiar de temas*/
+
+#temas{
+position: fixed;
+    left: 0;
+    top: 39%;
+    width: 39px;
+    height: 107px;
+    background: #333333;
+    opacity: 0.5;
 }
