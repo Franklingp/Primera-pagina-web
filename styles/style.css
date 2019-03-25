@@ -125,7 +125,7 @@ body{
 #recuadro_izquierdo img{
 	width: 100%;
 	margin-bottom: 4px;
-	margin-bottom: -21px;
+	margin-bottom: -10px;
 }
 
 #adicional{
@@ -147,11 +147,59 @@ body{
 			/* Boton para cambiar de temas*/
 
 #temas{
-position: fixed;
+    position: fixed;
     left: 0;
     top: 39%;
-    width: 39px;
-    height: 107px;
+    width: 55px;
+    height: 132px;
     background: #333333;
     opacity: 0.5;
+}
+
+.verde{
+	padding: 3px;
+    margin-top: 0px;
+    margin: 2px auto;
+    width: 40px;
+    height: 35px;
+    background: #235E30;
+    cursor: pointer;
+}
+
+.rojo{
+	padding: 3px;
+    margin-top: 0px;
+    margin: 2px auto;
+    width: 40px;
+    height: 35px;
+	background: red;
+	cursor: pointer;
+}
+
+.azul{
+	padding: 3px;
+    margin-top: 0px;
+    margin: 2px auto;
+    width: 40px;
+    height: 35px;
+	background: blue;
+	cursor: pointer;
+}
+
+			/* Pie de pagina web */
+
+#pie_pagina{
+	background: rgba(51, 51, 51, 0.70);
+	color: white;
+	padding: 8px;
+	margin: 0px;
+	padding-top: 7px;
+	margin: 10px;
+}
+
+#arriba{
+	float: right;
+	text-decoration: none;
+	color: white;
+	right:30px;
 }
