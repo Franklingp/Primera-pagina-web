@@ -19,6 +19,7 @@ body{
 	padding-top: 10px;
 	box-shadow: 2px 2px 7px #464545;
 	position: relative;
+	min-height: 550px;
 }
 
 						/*cabecera de la pagina*/
@@ -152,8 +153,7 @@ body{
     top: 39%;
     width: 55px;
     height: 132px;
-    background: #333333;
-    opacity: 0.5;
+    background: rgba(51, 51, 51, 0.70);
 }
 
 .verde{
