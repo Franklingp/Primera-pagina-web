@@ -1,0 +1,22 @@
+/*Estilos Rojos*/
+
+body{
+	background-attachment: fixed;
+	background-image: url("../images/rojo.jpg");
+}
+
+#titulo{
+	background: #b73422;
+}
+
+#menu li a:hover{
+	background: #b73422;
+}
+
+#articulos .more{
+    background: #b73422;
+}
+
+#adicional h2{
+	background:  #b73422;
+}

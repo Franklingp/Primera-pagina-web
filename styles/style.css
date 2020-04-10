@@ -3,11 +3,7 @@
 	clear: both;
 }
 
-body{
-	background: url("../images/hojas.jpg");
-	background-attachment: fixed;
 
-}
 
 						/* seccion global de pagina web*/
 
@@ -32,7 +28,6 @@ body{
 }
 
 #titulo{
-    background: #235E30;
     font-size: 47px;
     color: white;
     width: 40%;
@@ -69,9 +64,6 @@ body{
 	transition: 250ms;
 }
 
-#menu li a:hover{
-	background: #235E30;
-}
 
 						/*articulos del contenido de la pagina*/
 
@@ -98,7 +90,6 @@ body{
 
 #articulos .more{
     display: block;
-    background: #235E30;
     color: white;
     text-decoration: none;
     width: 99px;
@@ -136,7 +127,7 @@ body{
 
 #adicional h2{
 	color: white;
-	background:  #235E30;
+	
 }
 
 #adicional p{
@@ -224,5 +215,23 @@ body{
 	width: 100%;
 	height: 24px;
 	margin: 16px;
-	border-radius: 6;
+	border-radius: 6px;
+	border: solid grey 1px;
+	padding: 5px
+}
+
+.btn{
+	margin-top: 20px;
+	display: block;
+    background: #235E30;
+    color: white;
+    text-decoration: none;
+    width: 50%;
+    height: 35px;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 9px;
+    margin: 0px auto;
+    border: none;
+    padding: 5px
 }

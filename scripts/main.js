@@ -1,9 +1,6 @@
-// 	//Scripts de JavaScript
+// funsion para cambiar el tema del proyecto
 
-// $(document).ready(function(){
-// 	$("#sidebar").jcarousel();
-
-// 	//alert("Bienvenido a mi pagina web");
-
-// });
-
+function changeColor(color){
+	var style = $('#style').attr('href', `styles/${color}.css`);
+	console.log(style);
+}

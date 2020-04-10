@@ -1,0 +1,22 @@
+/*Estilos verdes*/
+
+body{
+	background-attachment: fixed;
+	background-image: url("../images/cielo.jpg");
+}
+
+#titulo{
+	background: #205999;
+}
+
+#menu li a:hover{
+	background: #205999;
+}
+
+#articulos .more{
+    background: #205999;
+}
+
+#adicional h2{
+	background:  #205999;
+}

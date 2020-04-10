@@ -1,0 +1,22 @@
+/*Estilos verdes*/
+
+body{
+	background-attachment: fixed;
+	background-image: url("../images/hojas.jpg");
+}
+
+#titulo{
+	background: #235E30;
+}
+
+#menu li a:hover{
+	background: #235E30;
+}
+
+#articulos .more{
+    background: #235E30;
+}
+
+#adicional h2{
+	background:  #235E30;
+}
