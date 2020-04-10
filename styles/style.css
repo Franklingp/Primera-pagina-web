@@ -4,7 +4,6 @@
 }
 
 
-
 						/* seccion global de pagina web*/
 
 #global{
@@ -223,7 +222,6 @@
 .btn{
 	margin-top: 20px;
 	display: block;
-    background: #235E30;
     color: white;
     text-decoration: none;
     width: 50%;
@@ -234,4 +232,18 @@
     margin: 0px auto;
     border: none;
     padding: 5px
+}
+
+.date{
+	font-size: 14px;
+	color: #aaa;
+}	
+
+.message{
+	font-size: 20px;
+	color: #333;
+}
+
+.name{
+	font-size: 24px;
 }

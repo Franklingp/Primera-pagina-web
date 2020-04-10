@@ -9,13 +9,13 @@
 
 	<script src="scripts/JQuery/jquery-3.3.1.min.js" type="text/javascript"></script>
 	<script src="scripts/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
-	<script src="scripts/main.js" type="text/javascript"></script>
 
 
 	<!--Cargando estilos de css-->
 
 	<link rel="stylesheet" href="scripts/jquery-ui/jquery-ui.min.css">
 	<link rel="stylesheet" href="styles/style.css">
+	<link id="style" rel="stylesheet" href="">
 
 
 </head>
@@ -49,7 +49,9 @@
 
 	<h1 class="title">Contacto</h1>
 	<hr>
-	<form class="form">
+	<section id='messages' style="text-align: center">
+	</section>
+	<form id="form" class="form" onSubmit="onSubmit(event)"> 
 		<label for='name'>Nombre</label>
 		<input type="text" name="name" placeholder="Nombre" class="form-control">
 		<br>
@@ -68,9 +70,9 @@
 
 
 	<div id="temas">
-		<div class="verde"></div>
-		<div class="azul"></div>
-		<div class="rojo"></div>
+		<div class="verde" onClick="changeColor('verde')"></div>
+		<div class="azul" onClick="changeColor('azul')"></div>
+		<div class="rojo" onClick="changeColor('rojo')"></div>
 	</div>
 
 
@@ -82,5 +84,8 @@
 		<span>Este es el pie de la pagina</span>
 		<a href="#" id="arriba">Volver a arriba</a>
 	</footer>
+
+<script src="scripts/main.js" type="text/javascript"></script>
+
 </body>
 </html>
