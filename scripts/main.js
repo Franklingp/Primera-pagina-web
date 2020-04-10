@@ -1,8 +1,9 @@
-	//Scripts de JavaScript
+// 	//Scripts de JavaScript
 
-$(document).ready(function(){
+// $(document).ready(function(){
+// 	$("#sidebar").jcarousel();
 
-	//alert("Bienvenido a mi pagina web");
+// 	//alert("Bienvenido a mi pagina web");
 
-});
+// });
 
